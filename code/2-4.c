@@ -13,5 +13,5 @@ int main(){
     int arr[2][3] ={1,2,3,4,5,6};
     int *rows[2] = {arr[0], arr[1]};
 
-    print_2d_arr(&arr[0][0],2,3);
+    print_2d_arr(rows,2,3);
 }
